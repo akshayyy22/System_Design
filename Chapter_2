@@ -37,8 +37,8 @@ Possible Interview Questions & Answers -------------
 Conceptual Questions
 1. What is a data model, and why is it important?
 A data model defines how data is structured, stored, and accessed in an application. It is important because it influences software design, performance, and scalability.
-What is the difference between relational and NoSQL databases?
 
+What is the difference between relational and NoSQL databases?
 2. Relational databases use structured tables, predefined schemas, and SQL for queries.
 NoSQL databases provide flexible schema, support high scalability, and store data in key-value, document, column-family, or graph formats.
 

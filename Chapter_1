@@ -22,7 +22,7 @@ Reliability in system design refers to the ability of a system to function corre
 
 ---
 
-2️⃣ Techniques to Improve Reliability**  
+2️⃣ Techniques to Improve Reliability 
 
 ✅ Redundancy
 - Definition: Duplicating components to avoid single points of failure (SPOF).  
@@ -32,7 +32,7 @@ Reliability in system design refers to the ability of a system to function corre
 - Definition: Keeping multiple copies of data across different servers or regions.  
 - Example: Using leader-follower (primary-replica) or multi-leader replication in databases.  
 
-✅ Failover Mechanisms**  
+✅ Failover Mechanisms
 - Definition: Automatically switching to a backup system when the primary system fails.  
 - Example: Using **Load Balancers** to redirect traffic when one instance crashes.  
 
@@ -44,7 +44,7 @@ Reliability in system design refers to the ability of a system to function corre
 - Definition: Proactively detecting failures using logging, metrics, and alerts.  
 - Example: Prometheus + Grafana to visualize server health.  
 
-✅ Chaos Engineering**  
+✅ Chaos Engineering  
 - Definition: Intentionally injecting failures to test system resilience.  
 - Example: Netflix’s Chaos Monkey kills random services to ensure fault tolerance.  
 
@@ -109,9 +109,9 @@ Detailed Explanation
 ---
 
 2. Key Scalability Components
-1. Load Balancing  
+1. Load Balancing                                           
    - Distributes incoming requests across multiple servers.
-   - Examples: **Nginx, HAProxy, AWS ELB, Cloudflare Load Balancer**.
+   - Examples: Nginx, HAProxy, AWS ELB, Cloudflare Load Balancer.
   
 2. Database Scaling
    - Read Replicas: Handling read-heavy workloads by creating copies of the database.
@@ -131,11 +131,11 @@ Detailed Explanation
 
 6. CDN (Content Delivery Network)  
    - Reduces latency by caching static content closer to users.
-   - Examples: **Cloudflare, Akamai, AWS CloudFront**.
+   - Examples: Cloudflare, Akamai, AWS CloudFront.
 
 7. Auto Scaling
    - Dynamically adds/removes resources based on demand.
-   - Example: **AWS Auto Scaling Groups**.
+   - Example: AWS Auto Scaling Groups.
 
 8. Eventual Consistency vs Strong Consistency  
    - Strong Consistency: Immediate updates across distributed nodes (e.g., RDBMS).
